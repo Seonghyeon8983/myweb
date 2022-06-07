@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>해병대</title>
+  <link rel="stylesheet" href="../CSS.css">
+    <style></style>
+</head>
+<body>
+
+    
+
+
+    <div class="header">
+        <a href=""><h1 style="color: #820000;">한번 해병은 영원한 해병</h1></a>
+    </div>
+    
+  <ul>
+    <li class="dropdown">
+        <a href="../해병대.html" class="dropbtn">Home</a>
+    </li>
+    <li class="dropdown">
+        <a href="#" class="dropbtn">해병대 상징</a>
+        <div class="dropdown-content" >
+            <a href="../해병대 상징/마크.html">해병대 마크</a>
+            <a href="../해병대 상징/팔각모.html">팔각모</a>
+            <a href="../해병대 상징/붉은 명찰.html">붉은 명찰</a>
+          </div>
+    </li>
+    <li class="dropdown">
+        <a href="#" class="dropbtn">교육 훈련단</a>
+        <div class="dropdown-content" >
+            <a href="../교육훈련단/교육훈련단.html">교육훈련단</a>
+            <a href="../교육훈련단/극기주.html">극기주</a>
+          </div>
+    </li>
+    <li class="dropdown">
+      <a href="../해병생활.html" class="dropbtn">해병생활</a>   
+  </li>
+  
+  </ul>
+  
+  <br>
+  <br>
+  <br>
+  <br>
+  <div align="center"><iframe  width="80%" height="500px" src="https://www.youtube.com/embed/RCtm2or3JhU?autoplay=1&amp;mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+  <br>
+  <br>
+
+
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 2</div>
+      <img src="../사진/노란명찰.jpg" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 2</div>
+      <img src="../사진/빨간명찰.jpg" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+    
+
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      
+    </div>
+    
+    <script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+<br>
+<br>
+<br>
+
+<div class="main">    
+  <h2>
+    해병대에서는 오른쪽 가슴에 붉은 명찰(속칭)을 달 수 있을 때 비로소 해병대의 일원이 되었음을 인정받게 된다. <br>
+    <br>그만큼 붉은 명찰은 해병대 장병들에게 단순히 자신의 이름을 나타내는 표식물이 아니라 <br>‘해병대 아무개’라는 해병대에 소속된 한 일원으로서 책임과 의무를 다하라는 명령인 동시에 징표인 것이다.<br>
+    <br>이러한 명찰이 상징하는 의미는 다음과 같다 <br>
+  </h2>
+  <h1> >>진홍색<< </h1>
+  <h2>'피'와 '정열', '용기', '신의' 그리고 '약동하는 젊음'을 조국에 바친 해병대의 전통을 상징.
+    <br>(약칭 : 피와 정열) </h2>
+ <br> 
+  <h1> >>황색<< </h1>
+  <h2>
+    해병대는 신성하며, 해병은 언제나 예의 바르고 명랑하며 활기차고, 땀과 인내의 결정체임을 상징.
+<br>(약칭 : 땀과 인내)
+  </h2>
+  <br>
+  <h1> >>노란명찰<< </h1>
+  <h2>
+    노란명찰은 극기주를 거쳐  붉은 명찰을 받는 진정한 해병이 되기전 훈병으로써의 자신을 나타내는 것이다
+<br>(약칭 :  병아리)
+  </h2>
+  <br>
+  <br>
+  <br>
+</div>
+
+
+
+
+
+
+</body>
+</html>
+

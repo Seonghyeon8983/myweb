@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>백성현의 해병생활</title>
+  <link rel="stylesheet" href="./CSS.css">
+    <style></style>
+</head>
+<body>
+
+    
+
+
+    <div class="header">
+        <a href=""><h1 style="color: #820000;">한번 해병은 영원한 해병</h1></a>
+    </div>
+    
+  <ul>
+    <li class="dropdown">
+        <a href="./해병대.html" class="dropbtn">Home</a>
+    </li>
+    <li class="dropdown">
+        <a href="#" class="dropbtn">해병대 상징</a>
+        <div class="dropdown-content" >
+            <a href="./해병대 상징/마크.html">해병대 마크</a>
+            <a href="./해병대 상징/팔각모.html">팔각모</a>
+            <a href="./해병대 상징/붉은 명찰.html">붉은 명찰</a>
+          </div>
+    </li>
+    <li class="dropdown">
+        <a href="#" class="dropbtn">교육 훈련단</a>
+        <div class="dropdown-content" >
+            <a href="./교육훈련단/교육훈련단.html">교육훈련단</a>
+            <a href="./교육훈련단/극기주.html">극기주</a>
+          </div>
+    </li>
+    <li class="dropdown">
+        <a href="./해병생활.html" class="dropbtn">해병생활</a>   
+    </li>
+    
+  </ul>
+  
+  <br>
+  <br>
+  <h1 style=" color: #820000; font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center; font-size: 50px;">백성현의 해병 생활<br>일병~전역 </h1>
+  <br>
+
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 12</div>
+      <img src="./사진/일병1.jpg" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 12</div>
+      <img src="./사진/일병 초휴가.jpg" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 12</div>
+      <img src="./사진/상병 초휴가.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+    
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 12</div>
+        <img src="./사진/상병 초휴가2.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 12</div>
+        <img src="./사진/상병 초휴가3.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 12</div>
+        <img src="./사진/상병 초휴가4.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">7 / 12</div>
+        <img src="./사진/병장.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">8 / 12</div>
+        <img src="./사진/병장1.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+      </div>
+    
+    
+      <div class="mySlides fade">
+        <div class="numbertext">9 / 12</div>
+        <img src="./사진/병장2.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+      </div>
+
+      
+      <div class="mySlides fade">
+        <div class="numbertext">10 / 12</div>
+        <img src="./사진/병장3.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+      </div>
+
+      
+      <div class="mySlides fade">
+        <div class="numbertext">11/ 12</div>
+        <img src="./사진/전역.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+      </div>
+
+      
+      <div class="mySlides fade">
+        <div class="numbertext"> 12 / 12</div>
+        <img src="./사진/전역1.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+      </div>
+    
+    </div>
+
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span>
+      <span class="dot"></span>  
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+    
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
+
+
+
+
+
+
+ 
+
+
+  <h1 style=" color: #820000; font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center; font-size: 50px;"> 안되면 될 떄까지!! </h1>
+  
+
+
+
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>해병대</title>
+  <link rel="stylesheet" href="../CSS.css">
+    <style></style>
+</head>
+<body>
+
+    
+
+
+    <div class="header">
+        <a href=""><h1 style="color: #820000;">한번 해병은 영원한 해병</h1></a>
+    </div>
+    
+  <ul>
+    <li class="dropdown">
+        <a href="../해병대.html" class="dropbtn">Home</a>
+    </li>
+    <li class="dropdown">
+        <a href="#" class="dropbtn">해병대 상징</a>
+        <div class="dropdown-content" >
+            <a href="../해병대 상징/마크.html">해병대 마크</a>
+            <a href="../해병대 상징/팔각모.html">팔각모</a>
+            <a href="../해병대 상징/붉은 명찰.html">붉은 명찰</a>
+          </div>
+    </li>
+    <li class="dropdown">
+        <a href="#" class="dropbtn">교육 훈련단</a>
+        <div class="dropdown-content" >
+            <a href="../교육훈련단/교육훈련단.html">교육훈련단</a>
+            <a href="../교육훈련단/극기주.html">극기주</a>
+          </div>
+    </li>
+    <li class="dropdown">
+      <a href="../해병생활.html" class="dropbtn">해병생활</a>   
+  </li>
+  
+  </ul>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <div align="center"><iframe  width="80%" height="500px" src="https://www.youtube.com/embed/TvewqIxuxPE?autoplay=1&amp;mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+
+  <br>
+  <br>
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 2</div>
+      <img src="../사진/팔각모2.jpg" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 2</div>
+      <img src="../사진/팔각모.jpg" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+    
+
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      
+    </div>
+    
+    <script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+
+<div class="main">    
+  <h1> >> 팔각모는 팔각(八角)의 의미와 "팔극(八極)"의 의미를 함축<< </h1>
+  <h1> >>『팔극(八極)의 의미』<< </h1>
+  <h2>지구상 어디든지 가서 싸우면 승리하는 해병대"임을 상징  </h2>
+ <br> 
+ <br>
+
+  <h1> >>팔각(八角)의 의미(화랑도 정신인 오계(五戒)와 세가지 금기(禁忌)를 표현<< </h1>
+  <h2>
+    1계 *국가에 충성하라(事君以忠) <br>
+    2계 *뜻 없이 죽이지 말라(殺生有擇) <br>
+    3계 *벗에게 믿음으로 대하라(交友以信) <br>
+    4계 *욕심을 버려라(禁慾) <br>
+    5계 *부모에게 효도하라(事親以孝) <br>
+    1금 *유흥을 삼가라(愼遊興) <br>
+    2금 *전투에 후퇴하지 말라(臨戰無退) <br>
+    3금 *허식을 삼가라(愼虛飾) 
+  </h2>
+  <br>
+  <br>
+
+  <h1> >>팔각의 중심점은 지휘관을 중심으로 하여 여덟 가지 해병대의 길을 가리키고 있다<< </h1>
+  <h2 >
+    - 국가에 충성하라(事君以忠)
+    - 평화의 독립수호 <br>
+    - 적에게 용감 <br>
+    - 엄정한 군기 <br>
+    - 긍지와 전통 <br>
+    - 희생정신으로 국가에 헌신 <br>
+    - 불굴의 투지 <br>
+    - 가족적인 단결도모 <br>
+    - 필승의 신념으로 승리 쟁취  <br>
+  </h2>
+    <br>
+    <br>
+
+
+</div>
+
+
+
+
+
+</body>
+</html>
